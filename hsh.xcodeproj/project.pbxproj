@@ -7,46 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BFB92DD0F59DD1BC79C2715 /* Pods_hsh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A64C38F3B10879F5D98BB3 /* Pods_hsh.framework */; };
 		AC65F2D120C0F07C008187FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F2D020C0F07C008187FB /* AppDelegate.swift */; };
-		AC65F2D320C0F07C008187FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F2D220C0F07C008187FB /* ViewController.swift */; };
 		AC65F2D620C0F07C008187FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC65F2D420C0F07C008187FB /* Main.storyboard */; };
 		AC65F2D820C0F07C008187FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC65F2D720C0F07C008187FB /* Assets.xcassets */; };
 		AC65F2DB20C0F07C008187FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC65F2D920C0F07C008187FB /* LaunchScreen.storyboard */; };
-		AC65F2E620C0F07C008187FB /* hshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F2E520C0F07C008187FB /* hshTests.swift */; };
-		AC65F2F120C0F07C008187FB /* hshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F2F020C0F07C008187FB /* hshUITests.swift */; };
+		AC65F30320C0F245008187FB /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F2FF20C0F244008187FB /* BaseTabBarController.swift */; };
+		AC65F30420C0F245008187FB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F30020C0F244008187FB /* BaseViewController.swift */; };
+		AC65F30520C0F245008187FB /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F30120C0F244008187FB /* BaseNavigationController.swift */; };
+		AC65F30720C0F24B008187FB /* ShouyeViewcontrooler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F30620C0F24B008187FB /* ShouyeViewcontrooler.swift */; };
+		AC65F30B20C0F688008187FB /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F30A20C0F688008187FB /* config.swift */; };
+		AC65F30F20C11993008187FB /* shouye.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC65F30E20C11993008187FB /* shouye.storyboard */; };
+		AC65F31120C124D8008187FB /* NSUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F31020C124D8008187FB /* NSUser.swift */; };
+		AC65F31320C12525008187FB /* RwViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F31220C12525008187FB /* RwViewController.swift */; };
+		AC65F31520C12652008187FB /* RwTableViewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F31420C12652008187FB /* RwTableViewcell.swift */; };
+		AC65F31720C13039008187FB /* SJProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC65F31620C13039008187FB /* SJProgressHUD.swift */; };
+		AC7F3AC520C13A4C004E9299 /* MineViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7F3AC420C13A4C004E9299 /* MineViewcontroller.swift */; };
+		ACA2AD8F20C5036A002F315E /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA2AD8E20C5036A002F315E /* IntroductionViewController.swift */; };
+		ACA2AD9420C5252F002F315E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA2AD9320C5252E002F315E /* Reachability.swift */; };
+		ACA2AD9620C53453002F315E /* MyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA2AD9520C53453002F315E /* MyRequest.swift */; };
+		ACC1604F20C14123004B0854 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC1604E20C14123004B0854 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		AC65F2E220C0F07C008187FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC65F2C520C0F07C008187FB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC65F2CC20C0F07C008187FB;
-			remoteInfo = hsh;
-		};
-		AC65F2ED20C0F07C008187FB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AC65F2C520C0F07C008187FB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AC65F2CC20C0F07C008187FB;
-			remoteInfo = hsh;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		1540301369D7C2EFA0149C4B /* Pods-hsh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hsh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hsh/Pods-hsh.debug.xcconfig"; sourceTree = "<group>"; };
+		2340CE7B7F9E62166E92FE9C /* Pods-hsh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hsh.release.xcconfig"; path = "Pods/Target Support Files/Pods-hsh/Pods-hsh.release.xcconfig"; sourceTree = "<group>"; };
+		92A64C38F3B10879F5D98BB3 /* Pods_hsh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hsh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC65F2CD20C0F07C008187FB /* hsh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hsh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC65F2D020C0F07C008187FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC65F2D220C0F07C008187FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC65F2D520C0F07C008187FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC65F2D720C0F07C008187FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC65F2DA20C0F07C008187FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC65F2DC20C0F07C008187FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC65F2E120C0F07C008187FB /* hshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC65F2E520C0F07C008187FB /* hshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hshTests.swift; sourceTree = "<group>"; };
-		AC65F2E720C0F07C008187FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC65F2EC20C0F07C008187FB /* hshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC65F2F020C0F07C008187FB /* hshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hshUITests.swift; sourceTree = "<group>"; };
-		AC65F2F220C0F07C008187FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC65F2FF20C0F244008187FB /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		AC65F30020C0F244008187FB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AC65F30120C0F244008187FB /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		AC65F30220C0F244008187FB /* OCMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMacro.h; sourceTree = "<group>"; };
+		AC65F30620C0F24B008187FB /* ShouyeViewcontrooler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShouyeViewcontrooler.swift; sourceTree = "<group>"; };
+		AC65F30920C0F2B5008187FB /* hsh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hsh-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC65F30A20C0F688008187FB /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		AC65F30E20C11993008187FB /* shouye.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = shouye.storyboard; sourceTree = "<group>"; };
+		AC65F31020C124D8008187FB /* NSUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUser.swift; sourceTree = "<group>"; };
+		AC65F31220C12525008187FB /* RwViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RwViewController.swift; sourceTree = "<group>"; };
+		AC65F31420C12652008187FB /* RwTableViewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RwTableViewcell.swift; sourceTree = "<group>"; };
+		AC65F31620C13039008187FB /* SJProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJProgressHUD.swift; sourceTree = "<group>"; };
+		AC7F3AC420C13A4C004E9299 /* MineViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewcontroller.swift; sourceTree = "<group>"; };
+		ACA2AD8E20C5036A002F315E /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		ACA2AD9320C5252E002F315E /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		ACA2AD9520C53453002F315E /* MyRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRequest.swift; sourceTree = "<group>"; };
+		ACC1604E20C14123004B0854 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,33 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC65F2DE20C0F07C008187FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC65F2E920C0F07C008187FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6BFB92DD0F59DD1BC79C2715 /* Pods_hsh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0208C4660DA5BF440F4609DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1540301369D7C2EFA0149C4B /* Pods-hsh.debug.xcconfig */,
+				2340CE7B7F9E62166E92FE9C /* Pods-hsh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC65F2C420C0F07C008187FB = {
 			isa = PBXGroup;
 			children = (
 				AC65F2CF20C0F07C008187FB /* hsh */,
-				AC65F2E420C0F07C008187FB /* hshTests */,
-				AC65F2EF20C0F07C008187FB /* hshUITests */,
 				AC65F2CE20C0F07C008187FB /* Products */,
+				0208C4660DA5BF440F4609DB /* Pods */,
+				E7EB32AACE03BFB6DC505B44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				AC65F2CD20C0F07C008187FB /* hsh.app */,
-				AC65F2E120C0F07C008187FB /* hshTests.xctest */,
-				AC65F2EC20C0F07C008187FB /* hshUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,8 +100,12 @@
 		AC65F2CF20C0F07C008187FB /* hsh */ = {
 			isa = PBXGroup;
 			children = (
-				AC65F2D020C0F07C008187FB /* AppDelegate.swift */,
-				AC65F2D220C0F07C008187FB /* ViewController.swift */,
+				ACA2AD8820C4C478002F315E /* model */,
+				ACA2AD8720C4C463002F315E /* view */,
+				ACA2AD8920C4C483002F315E /* controller */,
+				ACA2AD8620C4C446002F315E /* venders */,
+				ACA2AD8520C4C42F002F315E /* Navigation+TabBar */,
+				AC65F2FE20C0F244008187FB /* main */,
 				AC65F2D420C0F07C008187FB /* Main.storyboard */,
 				AC65F2D720C0F07C008187FB /* Assets.xcassets */,
 				AC65F2D920C0F07C008187FB /* LaunchScreen.storyboard */,
@@ -107,22 +114,72 @@
 			path = hsh;
 			sourceTree = "<group>";
 		};
-		AC65F2E420C0F07C008187FB /* hshTests */ = {
+		AC65F2FE20C0F244008187FB /* main */ = {
 			isa = PBXGroup;
 			children = (
-				AC65F2E520C0F07C008187FB /* hshTests.swift */,
-				AC65F2E720C0F07C008187FB /* Info.plist */,
+				AC65F2D020C0F07C008187FB /* AppDelegate.swift */,
+				AC65F30A20C0F688008187FB /* config.swift */,
+				AC65F30220C0F244008187FB /* OCMacro.h */,
+				AC65F30920C0F2B5008187FB /* hsh-Bridging-Header.h */,
 			);
-			path = hshTests;
+			path = main;
 			sourceTree = "<group>";
 		};
-		AC65F2EF20C0F07C008187FB /* hshUITests */ = {
+		ACA2AD8520C4C42F002F315E /* Navigation+TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				AC65F2F020C0F07C008187FB /* hshUITests.swift */,
-				AC65F2F220C0F07C008187FB /* Info.plist */,
+				AC65F2FF20C0F244008187FB /* BaseTabBarController.swift */,
+				AC65F30020C0F244008187FB /* BaseViewController.swift */,
+				AC65F30120C0F244008187FB /* BaseNavigationController.swift */,
 			);
-			path = hshUITests;
+			path = "Navigation+TabBar";
+			sourceTree = "<group>";
+		};
+		ACA2AD8620C4C446002F315E /* venders */ = {
+			isa = PBXGroup;
+			children = (
+				ACA2AD9520C53453002F315E /* MyRequest.swift */,
+				ACA2AD9320C5252E002F315E /* Reachability.swift */,
+				AC65F31620C13039008187FB /* SJProgressHUD.swift */,
+				AC65F31020C124D8008187FB /* NSUser.swift */,
+			);
+			path = venders;
+			sourceTree = "<group>";
+		};
+		ACA2AD8720C4C463002F315E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				AC65F31420C12652008187FB /* RwTableViewcell.swift */,
+				AC65F30E20C11993008187FB /* shouye.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		ACA2AD8820C4C478002F315E /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		ACA2AD8920C4C483002F315E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC65F30620C0F24B008187FB /* ShouyeViewcontrooler.swift */,
+				ACA2AD8E20C5036A002F315E /* IntroductionViewController.swift */,
+				AC65F31220C12525008187FB /* RwViewController.swift */,
+				ACC1604E20C14123004B0854 /* WebViewController.swift */,
+				AC7F3AC420C13A4C004E9299 /* MineViewcontroller.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E7EB32AACE03BFB6DC505B44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A64C38F3B10879F5D98BB3 /* Pods_hsh.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC65F2F520C0F07C008187FB /* Build configuration list for PBXNativeTarget "hsh" */;
 			buildPhases = (
+				762096FF836DD60258389DA2 /* [CP] Check Pods Manifest.lock */,
 				AC65F2C920C0F07C008187FB /* Sources */,
 				AC65F2CA20C0F07C008187FB /* Frameworks */,
 				AC65F2CB20C0F07C008187FB /* Resources */,
+				2F5550BDE59F966439B40F40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,42 +203,6 @@
 			productName = hsh;
 			productReference = AC65F2CD20C0F07C008187FB /* hsh.app */;
 			productType = "com.apple.product-type.application";
-		};
-		AC65F2E020C0F07C008187FB /* hshTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC65F2F820C0F07C008187FB /* Build configuration list for PBXNativeTarget "hshTests" */;
-			buildPhases = (
-				AC65F2DD20C0F07C008187FB /* Sources */,
-				AC65F2DE20C0F07C008187FB /* Frameworks */,
-				AC65F2DF20C0F07C008187FB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC65F2E320C0F07C008187FB /* PBXTargetDependency */,
-			);
-			name = hshTests;
-			productName = hshTests;
-			productReference = AC65F2E120C0F07C008187FB /* hshTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AC65F2EB20C0F07C008187FB /* hshUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC65F2FB20C0F07C008187FB /* Build configuration list for PBXNativeTarget "hshUITests" */;
-			buildPhases = (
-				AC65F2E820C0F07C008187FB /* Sources */,
-				AC65F2E920C0F07C008187FB /* Frameworks */,
-				AC65F2EA20C0F07C008187FB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AC65F2EE20C0F07C008187FB /* PBXTargetDependency */,
-			);
-			name = hshUITests;
-			productName = hshUITests;
-			productReference = AC65F2EC20C0F07C008187FB /* hshUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,17 +216,7 @@
 				TargetAttributes = {
 					AC65F2CC20C0F07C008187FB = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-					AC65F2E020C0F07C008187FB = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = AC65F2CC20C0F07C008187FB;
-					};
-					AC65F2EB20C0F07C008187FB = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = AC65F2CC20C0F07C008187FB;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -221,8 +234,6 @@
 			projectRoot = "";
 			targets = (
 				AC65F2CC20C0F07C008187FB /* hsh */,
-				AC65F2E020C0F07C008187FB /* hshTests */,
-				AC65F2EB20C0F07C008187FB /* hshUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,67 +244,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC65F2DB20C0F07C008187FB /* LaunchScreen.storyboard in Resources */,
+				AC65F30F20C11993008187FB /* shouye.storyboard in Resources */,
 				AC65F2D820C0F07C008187FB /* Assets.xcassets in Resources */,
 				AC65F2D620C0F07C008187FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC65F2DF20C0F07C008187FB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC65F2EA20C0F07C008187FB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F5550BDE59F966439B40F40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hsh/Pods-hsh-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hsh/Pods-hsh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		762096FF836DD60258389DA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hsh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC65F2C920C0F07C008187FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC65F2D320C0F07C008187FB /* ViewController.swift in Sources */,
+				ACA2AD9420C5252F002F315E /* Reachability.swift in Sources */,
+				AC65F30520C0F245008187FB /* BaseNavigationController.swift in Sources */,
+				AC65F31520C12652008187FB /* RwTableViewcell.swift in Sources */,
+				AC65F31320C12525008187FB /* RwViewController.swift in Sources */,
+				AC65F31720C13039008187FB /* SJProgressHUD.swift in Sources */,
+				AC65F30320C0F245008187FB /* BaseTabBarController.swift in Sources */,
+				ACA2AD8F20C5036A002F315E /* IntroductionViewController.swift in Sources */,
 				AC65F2D120C0F07C008187FB /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC65F2DD20C0F07C008187FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC65F2E620C0F07C008187FB /* hshTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC65F2E820C0F07C008187FB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC65F2F120C0F07C008187FB /* hshUITests.swift in Sources */,
+				ACA2AD9620C53453002F315E /* MyRequest.swift in Sources */,
+				AC65F30B20C0F688008187FB /* config.swift in Sources */,
+				ACC1604F20C14123004B0854 /* WebViewController.swift in Sources */,
+				AC7F3AC520C13A4C004E9299 /* MineViewcontroller.swift in Sources */,
+				AC65F31120C124D8008187FB /* NSUser.swift in Sources */,
+				AC65F30420C0F245008187FB /* BaseViewController.swift in Sources */,
+				AC65F30720C0F24B008187FB /* ShouyeViewcontrooler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		AC65F2E320C0F07C008187FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC65F2CC20C0F07C008187FB /* hsh */;
-			targetProxy = AC65F2E220C0F07C008187FB /* PBXContainerItemProxy */;
-		};
-		AC65F2EE20C0F07C008187FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AC65F2CC20C0F07C008187FB /* hsh */;
-			targetProxy = AC65F2ED20C0F07C008187FB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AC65F2D420C0F07C008187FB /* Main.storyboard */ = {
@@ -344,7 +367,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pierre JULITTE (6D6BN7B2NT)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -401,7 +424,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pierre JULITTE (6D6BN7B2NT)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -424,91 +447,43 @@
 		};
 		AC65F2F620C0F07C008187FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1540301369D7C2EFA0149C4B /* Pods-hsh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pierre JULITTE (6D6BN7B2NT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = hsh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.hsh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AC65F2F720C0F07C008187FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2340CE7B7F9E62166E92FE9C /* Pods-hsh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pierre JULITTE (6D6BN7B2NT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = hsh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.hsh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		AC65F2F920C0F07C008187FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = hshTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.hshTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hsh.app/hsh";
-			};
-			name = Debug;
-		};
-		AC65F2FA20C0F07C008187FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = hshTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.hshTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hsh.app/hsh";
-			};
-			name = Release;
-		};
-		AC65F2FC20C0F07C008187FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = hshUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.hshUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = hsh;
-			};
-			name = Debug;
-		};
-		AC65F2FD20C0F07C008187FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = hshUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maple.study.hshUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = hsh;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -529,24 +504,6 @@
 			buildConfigurations = (
 				AC65F2F620C0F07C008187FB /* Debug */,
 				AC65F2F720C0F07C008187FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC65F2F820C0F07C008187FB /* Build configuration list for PBXNativeTarget "hshTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC65F2F920C0F07C008187FB /* Debug */,
-				AC65F2FA20C0F07C008187FB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC65F2FB20C0F07C008187FB /* Build configuration list for PBXNativeTarget "hshUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC65F2FC20C0F07C008187FB /* Debug */,
-				AC65F2FD20C0F07C008187FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

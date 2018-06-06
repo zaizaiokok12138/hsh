@@ -16,6 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+//        if NSUser.getNormalDefault(key: "first") == nil{
+//            let mainVc = UIStoryboard.init(name: "shouye", bundle: nil).instantiateViewController(withIdentifier: "WebViewController") as! WebViewController
+//            let nav = BaseNavigationController.init(rootViewController: mainVc)
+//            self.window?.rootViewController = nav
+//        }else{
+            let vc =  UIStoryboard.init(name: "shouye", bundle: nil).instantiateViewController(withIdentifier: "ShouyeViewcontrooler") as! ShouyeViewcontrooler
+            let nav = BaseNavigationController.init(rootViewController: vc)
+            self.window?.rootViewController = nav
+//        }
         return true
     }
 
